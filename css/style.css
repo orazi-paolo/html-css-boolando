@@ -38,3 +38,51 @@ img{
     top: 0;
     right: 30px;
 }
+
+/* main */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.col{
+    width: calc((100% / 3) - (40 / 3));
+}
+.card{
+    position: relative;
+}
+.img-card{
+    height: 450px;
+    position: static;
+}
+
+.discount-green.no-left{
+    left: 0;
+}
+
+/* utils */
+
+.discount-red{
+    position: absolute;
+    font-size: 9px;
+    padding: 5px 7px;
+    bottom: 60px;
+    left: 0;
+    background-color: red;
+
+}
+
+.discount-green{
+    position: absolute;
+    font-size: 9px;
+    padding: 5px 7px;
+    bottom: 60px;
+    left: 36px;
+    background-color: green;
+}
+
+
