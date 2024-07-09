@@ -68,7 +68,7 @@ img{
 .img-card:hover{
     display: none;
 }
-.img-card:hover .img-hover{
+.img-hover:hover{
     display: block;
 }
 
