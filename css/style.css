@@ -64,6 +64,17 @@ img{
     left: 0;
 }
 
+/* footer */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1025px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
 /* utils */
 
 .discount-red{
@@ -115,3 +126,15 @@ img{
     color: #333333;
 }
 
+.bg-black{
+    background-color: black;
+}
+
+.legal-information{
+    color: #eeee;
+    font-size: 9px;
+}
+
+.font-where-to-search{
+    font-size: 10px;
+}
