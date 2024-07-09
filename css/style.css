@@ -60,6 +60,21 @@ img{
     position: static;
 }
 
+.img-hover{
+    display: none;
+    height: 450px;
+    position: static;
+}
+.img-card:hover{
+    display: none;
+}
+.img-card:hover .img-hover{
+    display: block;
+}
+
+
+
+
 .discount-green.no-left{
     left: 0;
 }
@@ -103,6 +118,10 @@ img{
     color: black;
     background-color: white;
     padding: 4px 8px;
+}
+
+.fa-heart:hover {
+    color: red;
 }
 
 .brand{
